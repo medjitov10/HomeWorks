@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Carrot cake recipe</title>
+
+     <style>
+     body{
+       margin: 30px;
+     }
+       a{
+         text-decoration: none;
+         color: black;
+       }
+       #Directions ol li{
+         margin-bottom: 10px;
+       }
+     </style>
+
+  </head>
+
+  <body>
+    <header>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Appacademylogo.png" alt="">
+      <nav>
+        <ul>
+          <li><a href="#Description">Description</a></li>
+          <li><a href="#Ingredients">Ingredients</a></li>
+          <li><a href="#Directions">Directions</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+
+      <h1>Carrot cake</h1>
+      <aside id="Description">
+        <h2 >Description</h2>
+        <p>Carrot cake is a cake that contains carrots mixed into the batter.</p>
+
+        <figure>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Rueblitorte.jpg/1280px-Rueblitorte.jpg"
+          alt="image of the recipe" style="width: 600px; height: 400px; border: 2px solid #BABABA; margin-left: 50px;">
+
+          <figcaption>
+            <a href="https://en.wikipedia.org/wiki/Carrot_cake" style="text-decoration: underline;">link for wiki</a>
+          </figcaption>
+        </figure>
+      </aside>
+
+
+
+      <div id="Ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>1 tbsp olive oil</li>
+          <li>1/2 medium brown or white onion, peeled and diced</li>
+          <li>1 clove garlic, minced</li>
+          <li>1 medium green or red bell pepper, chopped</li>
+          <li>4 cups ripe diced tomatoes, or 2 cans (14 oz. each) diced tomatoes</li>
+          <li>2 tbsp tomato paste</li>
+          <li>1 tsp chili powder (mild)</li>
+          <li>1 tsp cumin</li>
+          <li>1 tsp paprika</li>
+          <li>Pinch of cayenne pepper (or more to taste-- spicy!)</li>
+          <li>Pinch of sugar (optional, to taste)</li>
+          <li>Salt and pepper to taste</li>
+          <li>5-6 eggs</li>
+          <li>1/2 tbsp fresh chopped parsley (optional, for garnish)</li>
+        </ul>
+      </div>
+
+        <div id="Directions">
+          <h2>Direction</h2>
+          <ol id="test">
+            <li>Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9x13 inch pan.</li>
+            <li>In a large bowl, beat together eggs, oil, white sugar and 2 teaspoons vanilla. Mix in flour,
+              baking soda, baking powder, salt and cinnamon. Stir in carrots. Fold in pecans. Pour into prepared pan.</li>
+            <li>Bake in the preheated oven for 40 to 50 minutes, or until a toothpick inserted into the center of the cake comes out clean. Let cool in pan for 10 minutes, then turn out onto a wire rack and cool completely.</li>
+            <li>To Make Frosting: In a medium bowl, combine butter, cream cheese, confectioners' sugar and 1 teaspoon vanilla. Beat until the mixture is smooth and creamy. Stir in chopped pecans. Frost the cooled cake.</li>
+          </ol>
+        </div>
+        <section>
+          <form method="post">
+            <label for="name">Name</label>
+              <input name="name" type="text" id="input1">
+
+            <label for="rating">Rating</label>
+              <input type="radio" name="rating" value="1" checked>
+              <input type="radio" name="rating" value="2" >
+              <input type="radio" name="rating" value="3" >
+              <input type="radio" name="rating" value="4" >
+              <input type="radio" name="rating" value="5" >
+
+            <label for="Cooking Expertise">Cooking Expertise</label>
+              <select class="" name="">
+                <option value="Select Cooking Expertise" disabled="true" checked>Select Cooking Expertise</option>
+                <option value="Sometimes Cook">Sometimes Cook</option>
+                <option value="Cook Everyday">Cook Everyday</option>
+                <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+                <option value="Professional Chef">Professional Chef</option>
+              </select>
+
+            <label for="review" cols="30" rows="10">Review</label>
+              <textarea name="review"></textarea>
+              <input type="submit" value="Submit Review">
+          </form>
+        </section>
+        <footer>
+          <p>original recipe by  <a href="http://allrecipes.com/recipe/7402/carrot-cake-iii/"style="font-size:20px;color: #BABABA;">Allrecipes</a></p>
+        </footer>
+    </section>
+  </body>
+</html>
